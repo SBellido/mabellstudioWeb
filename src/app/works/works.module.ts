@@ -11,6 +11,7 @@ import { WorksComponent } from './works.component';
 import { HomeComponent } from './components/home/home.component';
 import { DesignComponent } from './components/design/design.component';
 import { DevelopmentComponent } from './components/development/development.component';
+import { MarketingComponent } from './components/marketing/marketing.component';
 import { CardComponent } from './components/card/card.component';
 
 @NgModule({
@@ -19,6 +20,7 @@ import { CardComponent } from './components/card/card.component';
     WorksComponent,
     DesignComponent,
     DevelopmentComponent,
+    MarketingComponent,
     CardComponent
   ],
   imports: [

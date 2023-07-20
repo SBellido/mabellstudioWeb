@@ -1,1 +1,20 @@
-<p>marketing works!</p>
+<article class="_container_all">
+    <div class="_container_title">
+      <!-- <mat-icon class="_icon_nav">{{ icon }}</mat-icon> -->
+      <h1 class="_title">{{ area }}</h1>
+    </div>
+    <section class="_container">
+      <div class="_card_complete" *ngFor="let card of cards">
+        <div class="_card">
+          <h4 class="_card_title">{{ card.tittle }}</h4>
+          <ul class="_text_card">
+            <li class="_li" *ngFor="let item of card.text;">
+              {{ item }}
+            </li>
+          </ul>
+          <img class="_card_img" [src]="card.image" alt="Imagen">
+        </div>
+      </div>
+    </section>
+  </article>
+  

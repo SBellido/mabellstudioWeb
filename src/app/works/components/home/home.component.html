@@ -1,1 +1,27 @@
-<h1>home works!</h1>
+<a href="https://wa.me/34618863343" target="_blank">
+    <div class="_container_btn_fixed">
+      <button class="_fixed_button">
+        <!-- <mat-icon class="_icon_contact">chat_bubble_outline</mat-icon> -->
+        Contáctanos
+      </button>
+    </div>
+  </a>
+  <article class="_container_all">
+    <section class="_container_concepts">  
+      <div class="_concept" *ngFor="let concept of concepts">
+        <h1 class="_h1" [ngStyle]="getStyles()">{{concept}}</h1>
+      </div>
+    
+      <div id="middle" class="_concept" *ngFor="let concept of concepts">
+        <h1 class="_h1" [ngStyle]="getStyles()">{{concept}}</h1>
+      </div>
+  
+      <div id="middle_0" class="_concept" *ngFor="let concept of concepts">
+        <h1 class="_h1" [ngStyle]="getStyles()">{{concept}}</h1>
+      </div>
+    
+      <div id="back" class="_concept" *ngFor="let concept of concepts">
+        <h1 class="_h1" [ngStyle]="getStyles()">{{concept}}</h1>
+      </div>
+    </section>
+  </article>

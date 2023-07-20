@@ -1,0 +1,306 @@
+@import '../../global.component.scss';
+
+/* SCREEN 0px */
+@media (min-width: 0px) { 
+
+  div._container_logo_mobile {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 3.5rem auto;
+  }
+  img._logo_mobile {
+    width: 10rem;
+  }
+  div._container_logo_desktop {
+    display: none;
+  }
+  section._header_footer {
+    height: auto;
+  }
+  article._container_footer {
+    width: 100%;
+    height: auto;
+    background: $first_color 100%;
+  }
+  div._divisor_bottom {
+    background-color: $second_color;
+    width: 100%;
+    height: .2rem;
+  }
+  section._container_social_networks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+  section._container_logos_social_networks {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 2rem;
+  }
+  div._container_logo_socialnet {
+    width: 2.5rem;
+    height: auto;
+    margin: 1rem auto;
+  }
+  img._logo_socialnet {
+    -webkit-transition:-webkit-transform .5s ease-out;
+    -moz-transition:-moz-transform .5s ease-out;
+    -o-transition:-o-transform .5s ease-out;
+    -ms-transition:-ms-transform .5s ease-out;
+    transition:transform .5s ease-out;
+    opacity: 80%;
+    cursor: pointer;
+  }
+  img._logo_footer {
+    width: 75%;
+  } 
+  p._message {
+     color: $third_color;
+     text-align: center;
+  } 
+  p#follow {
+    color: $accent_color;
+    margin-bottom: 0;
+ } 
+  ._container_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 1.3rem;
+  }
+  section._container_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    margin-bottom: 3rem;
+  }
+  .mat-menu-item {
+    padding: 0 .7rem;
+  }
+  div._container_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 0 1 0;
+    padding: 0;
+    width: 100%;
+  }
+  ._button { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50px;  
+    padding: 0rem .4rem;
+  }
+  ._active_button {
+    background: $third_color; 
+  }
+  ._inactive_button {
+    background: radial-gradient(
+      circle, $second_color_lighter 9%, 
+      $second_color 100%
+    );
+  }
+  ._icon_nav {
+    color: $first_color;
+    margin-right: 0px !important;
+    padding: .4rem 0rem;
+  }
+    p._text_button {
+    font-size: .7rem;
+    color: $first_color;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+  }
+
+  div._container_firm {
+    margin: .5rem auto;
+    width: 14rem;
+    height: auto;
+  }  
+
+  div._contact_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ._button_contact {
+    border-radius: 50px;
+    display: inherit;
+    align-items: center;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    color: $first_color;
+    padding: 0.2rem .6rem;
+    background: linear-gradient(
+      0deg, $third_color 33%, 
+      $third_color_light 100%
+    );
+  }
+
+  // div._contact_buttons {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   border-radius: 50px;
+  //   display: inherit;
+  //   align-items: center;
+  //   z-index: 1;
+  //   border: none;
+  //   cursor: pointer;
+  //   color: $first_color;
+  //   background: linear-gradient(
+  //     0deg, $third_color 33%, 
+  //     $third_color_light 100%
+  //   );
+  // }
+  ._contact_buttons:hover {
+    background: $second_color_light;
+    border-radius: 50px;
+  }
+  div._divisor_bottom {
+    margin-top: 3rem;
+  }
+  div._footer_bottom {
+    background: $first_color;
+    color: $accent_color;
+    padding: 0.8rem;
+    text-align: center;
+    margin-top: 5rem;
+    // -webkit-box-shadow: 0px -2px 6px 0px rgba(134,42,128,0.3);
+    // -moz-box-shadow: 0px -2px 6px 0px rgba(134,42,128,0.3);
+    // box-shadow: 0px -2px 6px 0px rgba(134,42,128,0.3);
+  }
+  p._copyright {
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  p>span {
+    font-weight: 500;
+  }
+  a:-webkit-any-link {
+    text-decoration: none;
+  }
+  div._footer_bottom {
+    margin-top: 9rem;
+  }
+
+}
+
+/* SCREEN 375px */
+@media (min-width: 0px) {
+  
+  div._container_logo_mobile {
+    margin: 0 auto 5rem auto;
+  }
+
+}
+
+/* SCREEN 490px */
+@media (min-width: 490px) { 
+
+  div._container_logo_mobile {
+    display: none; 
+  }
+  div._container_logo_desktop {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+  }
+  img._logo_desktop {
+    width: 10rem;
+  }
+  section._container_contact {
+    padding: 0 11rem;
+  }
+  div._container_logo_socialnet {
+    margin: 1rem .5rem;
+  }
+
+}
+
+/* SCREEN 768px */
+@media (min-width: 768px) { 
+
+  img._logo_footer {
+    width: 50%;
+  } 
+  img._logo_desktop {
+    margin-bottom: 2rem;  
+  }
+  section._container_contact {
+    padding: 0 16rem;
+  }
+  div._footer_bottom {
+    margin-top: 10.3rem;
+  }
+
+}
+
+/* SCREEN 1024px */
+@media (min-width: 1024px) { 
+
+  section._container_buttons {
+    padding: 7rem 13rem;
+  }
+  section._container_contact {
+    padding: 0 25rem;
+  }
+  ._button:hover { 
+    background: $second_color_light;
+  }
+  img._logo_socialnet:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 100%;
+  }
+
+
+}
+
+/* SCREEN 1440px */
+@media (min-width: 1440px) {
+
+  section._container_contact {
+    padding: 2rem 39rem;
+  }
+  div._footer_bottom {
+    margin-top: 12rem
+  }
+
+}
+
+/* SCREEN 1920px */
+@media (min-width: 1920px) {
+
+  section._container_buttons {
+    justify-content: space-around;
+  }
+  div._footer_bottom {
+    margin-top: 10.3rem;
+  }
+  section._container_contact {
+    padding: 2rem 52rem;
+
+  }
+
+}
+
+/* SCREEN 2559px */
+@media (min-width: 2559px) {
+
+  section._container_contact {
+    padding: 2rem 72rem;
+  }
+
+}

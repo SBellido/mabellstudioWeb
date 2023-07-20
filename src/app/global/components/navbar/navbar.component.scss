@@ -1,0 +1,186 @@
+@import '../../global.component.scss';
+
+/* SCREEN 0px*/
+@media (min-width: 0px) { 
+
+  ._container_logo_desktop {
+    display: none;
+  }
+  ._container_logo_mobile {
+    display: flex;
+    justify-content: center;
+  }
+/* ------------NAVBAR HAMBURGUER---------------*/
+hr._hr_hamburguer {
+  border: .2px solid $first_color_medium;
+}
+::ng-deep .mat-toolbar.mat-primary {
+    background: $first_color;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding-top: .5rem;
+  }
+  .mat-toolbar-row, 
+  .mat-toolbar-single-row {
+    justify-content: center;
+  }
+  ._icon_hamburguer {
+    color: $second_color;
+    cursor: pointer;
+  }
+  ._active_icon_hamburguer {
+    color: $third_color;
+  }
+  ._inactive_icon_hamburguer {
+    color: $second_color;
+  }
+  .mat-menu-item._button_hamburguer {
+    background: $first_color;
+    font-size: 1.1rem;
+    font-weight: $font-weight-light;
+    width: 100vw;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+  }
+  // .mat-menu-item._button_hamburguer:hover {
+  //   background: $first_color_hover;
+  // }
+  .mat-menu-item, 
+  .mat-icon-no-color {
+    color: $second_color;
+  }
+  span {
+    color: $accent_color;
+  }
+  .mat-menu-submenu-icon {
+    color: $second_color;
+  }
+  ::ng-deep
+  .mat-menu-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: $first_color;
+    position: absolute;
+    left: -16px;
+  }
+  div._empty {
+    width: 24px;
+    height: 40px;
+  }
+  figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0em;
+    margin-inline-end: 3em;
+  }
+  img._firma_home {
+    margin:auto;
+  }  
+  ::ng-deep
+  .mat-menu-item[_ngcontent-bbx-c50], 
+  .mat-icon-no-color[_ngcontent-bbx-c50], 
+  .mat-menu-submenu-icon[_ngcontent-bbx-c50] {
+    color: $second_color;
+  }
+  ::ng-deep
+    div.mat-elevation-z4 {
+      margin-top: .7rem;
+      width: 100vw;
+      top: 50px;
+      height: 40vh;
+  }
+
+  /* ------------NAVBAR CIRCLE BUTTONS---------------*/
+  img._logo_navbar {
+    cursor: pointer;
+    padding: 0rem;
+    height: 75px;
+  }
+  section._container_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background: #FFF0FB;
+    padding: 4.5rem 0 0.5rem 0;
+    box-shadow: 0px 0px 4px 0px #1a1a1a;
+    width: 100%;
+  }
+  ._container_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+  ._button { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50px;  
+    padding: 0rem .4rem;
+  }
+  ._active_button {
+    background: $second_color; 
+    cursor:default;  
+  }
+  ._button:hover { 
+    background: $second_color_light;
+  }
+  ._active_button:hover {
+    background: $second_color; 
+    cursor:default;  
+  }
+  ._inactive_button {
+    background: $third_color;
+  }
+  ._inactive_icon {
+    color: $first_color;
+  }
+  ._active_icon {
+    color: $fifth_color;
+  }
+  ._icon_nav {
+    margin-right: 0px !important;
+    padding: .4rem 0rem;
+  }
+  p._text_button {
+    font-size: .7rem;
+    color: $accent_color;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+  }
+  
+}
+
+/* SCREEN 490px */
+@media (min-width: 490px) { 
+  ._container_logo_desktop {   
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+  ._icon_hamburguer,
+  ._container_logo_mobile {
+    display: none;
+  }
+  section._container_buttons {
+    justify-content: center;
+  }
+  div._container_button {
+    margin: 1rem 3rem 0 3rem;
+  }
+  ._conteiner_button {
+    margin: 1rem 3rem 0 3rem;
+  }
+
+
+}
+

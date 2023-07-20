@@ -11,13 +11,15 @@ import { WorksComponent } from './works.component';
 import { HomeComponent } from './components/home/home.component';
 import { DesignComponent } from './components/design/design.component';
 import { DevelopmentComponent } from './components/development/development.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     WorksComponent,
     DesignComponent,
-    DevelopmentComponent
+    DevelopmentComponent,
+    CardComponent
   ],
   imports: [
     CommonModule,

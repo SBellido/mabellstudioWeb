@@ -6,6 +6,7 @@
   ._container_all {
     padding-top: 18rem;
     height: 50px;
+    margin-bottom: 66rem;
   }
   ._container_parallax {
     width: 100%;
@@ -103,13 +104,15 @@
     align-items: center;
   }
   ._fixed_button {
-    padding: .5rem 1rem;
+    padding: 1rem 2rem;
+    border-radius: 50px; 
+    font-size: 1.2rem;
     border-radius: 25px;
     display: inherit;
     align-items: center;
     position: fixed;
     bottom: 8.5rem;
-    z-index: 1;
+    z-index: 2;
     border: none;
     cursor: pointer;
     color: $first_color;
@@ -154,9 +157,12 @@
 
 }
 
-/* SCREEN 490px */
-@media (min-width: 490px) {
+/* SCREEN 425px */
+@media (min-width: 425px) {
 
+ article._container_all {
+    margin-bottom: 70rem;
+ } 
   ._container_concepts {
     height: 100vh;
     padding-top: 8rem;  
@@ -167,6 +173,9 @@
 /* SCREEN 768px */
 @media (min-width: 768px) { 
 
+  article._container_all {
+    margin-bottom: 55rem;
+  } 
   ._container_concepts {
     width: 70vw;
     padding-top: 6rem;  
@@ -177,6 +186,9 @@
 /* SCREEN 1024px */
 @media (min-width: 1024px) { 
 
+  article._container_all {
+    margin-bottom: 35rem;
+  } 
   ._container_concepts {
     width: 75vw;
     height: 50vh;
@@ -190,11 +202,13 @@
 /* SCREEN 1440px */
 @media (min-width: 1440px) {
 
+  article._container_all {
+    margin-bottom: 45rem;
+  } 
   ._container_concepts {
     width: 50vw;
     height: 70vh;
   }
-
 }
 
 /* SCREEN 2560px */

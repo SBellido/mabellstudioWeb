@@ -1,1 +1,12 @@
 @import '../card/card.component.scss';
+
+
+/* SCREEN 768px */
+@media (min-width: 768px) {
+
+// CARDS
+    article._container_all {
+        margin-top: 10rem;
+    } 
+}
+

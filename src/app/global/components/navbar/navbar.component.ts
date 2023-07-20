@@ -8,22 +8,53 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  designActive:boolean = false;
+  developmentActive:boolean = false;
+  marketingActive:boolean = false;
 
-  ngOnInit(): void {
+  constructor(private router: Router) { 
+  }
+  ngOnInit() {
+   
   }
 
-  routeToDesign() {
-    this.router.navigate(['works/design']);
+  public setButtonsStyle(item: string) {
+    
+    if (item === 'design') {
+      this.designActive = true;
+      this.developmentActive = false; 
+      this.marketingActive = false; 
+      this.router.navigate(['works/design']);
+    } else if (item === 'development') {
+        this.developmentActive = true;
+        this.designActive = false; 
+        this.marketingActive = false; 
+        this.router.navigate(['works/development']);
+    } else if (item === 'marketing') {
+        this.marketingActive = true; 
+        this.designActive = false; 
+        this.developmentActive = false; 
+        this.router.navigate(['works/marketing']);
+    } else {
+        this.designActive = false; 
+        this.developmentActive = false; 
+        this.marketingActive = false; 
+        this.router.navigate(['works/home']);
+    }
+    
   }
-  routeToHome() {
-    this.router.navigate(['works/home']);
-  }
-  routeToDev() {
-    this.router.navigate(['works/development']);
-  }
-  routeToMarketing() {
-    this.router.navigate(['works/marketing']);
-  }
+
+  // routeToDesign() {
+  //   this.router.navigate(['works/design']);
+  // }
+  // routeToHome() {
+  //   this.router.navigate(['works/home']);
+  // }
+  // routeToDev() {
+  //   this.router.navigate(['works/development']);
+  // }
+  // routeToMarketing() {
+  //   this.router.navigate(['works/marketing']);
+  // }
 
 }

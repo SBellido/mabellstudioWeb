@@ -100,6 +100,7 @@ hr._hr_hamburguer {
     cursor: pointer;
     padding: 0rem;
     height: 75px;
+    z-index: 2;
   }
   section._container_buttons {
     display: flex;

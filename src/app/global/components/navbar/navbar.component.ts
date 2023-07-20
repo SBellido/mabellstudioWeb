@@ -19,5 +19,11 @@ export class NavbarComponent implements OnInit {
   routeToHome() {
     this.router.navigate(['works/home']);
   }
+  routeToDev() {
+    this.router.navigate(['works/development']);
+  }
+  routeToMarketing() {
+    this.router.navigate(['works/marketing']);
+  }
 
 }

@@ -10,12 +10,14 @@ import { WorksRoutingModule } from './works-routing.module';
 import { WorksComponent } from './works.component';
 import { HomeComponent } from './components/home/home.component';
 import { DesignComponent } from './components/design/design.component';
+import { DevelopmentComponent } from './components/development/development.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     WorksComponent,
-    DesignComponent
+    DesignComponent,
+    DevelopmentComponent
   ],
   imports: [
     CommonModule,

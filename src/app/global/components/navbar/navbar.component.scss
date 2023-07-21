@@ -10,11 +10,7 @@
     display: flex;
     justify-content: center;
   }
-/* ------------NAVBAR HAMBURGUER---------------*/
-hr._hr_hamburguer {
-  border: .2px solid $first_color_medium;
-}
-::ng-deep .mat-toolbar.mat-primary {
+  ::ng-deep .mat-toolbar.mat-primary {
     background: $first_color;
     position: fixed;
     top: 0;
@@ -24,75 +20,6 @@ hr._hr_hamburguer {
   .mat-toolbar-row, 
   .mat-toolbar-single-row {
     justify-content: center;
-  }
-  ._icon_hamburguer {
-    color: $second_color;
-    cursor: pointer;
-  }
-  ._active_icon_hamburguer {
-    color: $third_color;
-  }
-  ._inactive_icon_hamburguer {
-    color: $second_color;
-  }
-  .mat-menu-item._button_hamburguer {
-    background: $first_color;
-    font-size: 1.1rem;
-    font-weight: $font-weight-light;
-    width: 100vw;
-    height: 14vh;
-    display: flex;
-    align-items: center;
-  }
-  // .mat-menu-item._button_hamburguer:hover {
-  //   background: $first_color_hover;
-  // }
-  .mat-menu-item, 
-  .mat-icon-no-color {
-    color: $second_color;
-  }
-  span {
-    color: $accent_color;
-  }
-  .mat-menu-submenu-icon {
-    color: $second_color;
-  }
-  ::ng-deep
-  .mat-menu-content {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background: $first_color;
-    position: absolute;
-    left: -16px;
-  }
-  div._empty {
-    width: 24px;
-    height: 40px;
-  }
-  figure {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-block-start: 0em;
-    margin-block-end: 1em;
-    margin-inline-start: 0em;
-    margin-inline-end: 3em;
-  }
-  img._firma_home {
-    margin:auto;
-  }  
-  ::ng-deep
-  .mat-menu-item[_ngcontent-bbx-c50], 
-  .mat-icon-no-color[_ngcontent-bbx-c50], 
-  .mat-menu-submenu-icon[_ngcontent-bbx-c50] {
-    color: $second_color;
-  }
-  ::ng-deep
-    div.mat-elevation-z4 {
-      margin-top: .7rem;
-      width: 100vw;
-      top: 50px;
-      height: 40vh;
   }
 
   /* ------------NAVBAR CIRCLE BUTTONS---------------*/
@@ -168,7 +95,6 @@ hr._hr_hamburguer {
     justify-content: center;
     height: 100%;
   }
-  ._icon_hamburguer,
   ._container_logo_mobile {
     display: none;
   }

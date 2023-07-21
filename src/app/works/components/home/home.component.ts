@@ -10,14 +10,6 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   concepts: string[] = [
-    // 'learning', 'overcoming', 'openness', 'perseverance', 'reading',
-    // 'creativity', 'experience', 'respect', 'balance', 'study',
-    // 'commitment', 'communication', 'listening', 'practice', 'disposition',
-    // 'dialogue', 'intuition', 'projects', 'ideas', 'friendship', 'reasoning',
-    // 'curiosity', 'love', 'results', 'team', 'attention',
-    // 'interest', 'risks', 'attitude', 'training', 'family',
-    // 'training', 'trust', 'dreams', 'sincerity',
-    // 'knowledge', 'humility', 'empathy', 'resolution', 'responsibility'
     'aprendizaje','superación','apertura','perseverancia', 'lectura',
     'creatividad','experiencia', 'respeto', 'equilibrio', 'estudio',
     'compromiso','comunicación','escucha','práctica', 'disposición',
@@ -34,11 +26,6 @@ export class HomeComponent implements OnInit {
     500,600,700,800,900
   ];
 
-  // colorFont: string[] = [
-  //   '#9b9b9b','#7f7f7f','#171717',
-  //   '#bbbbbb','#afafaf','#7e7e7e',
-  //   '#a5a5a5','#888888','#b9b9b9'
-  // ];
   colorFont: string[] = [
     '#e2e2e2','#c7c7c7','#cccccc',
     '#862ADC','#a67fcb','#F71490',

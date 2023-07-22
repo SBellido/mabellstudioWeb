@@ -16,7 +16,7 @@ export class DesignComponent implements OnInit {
     {
       id: 1,
       tittle: 'comunicación visual',
-      text: ['Transmite mensajes claros y afectivos.','Aplica en medios impresos y/o digitales.','Resuelve identidad de marca (Branding).','Para empresas, publicidad, cultura y arte.'],
+      text: ['Transmite mensajes claros y efectivos.','Aplica en medios impresos y/o digitales.','Resuelve identidad de marca (Branding).','Para empresas, publicidad, cultura y arte.'],
       image: '../../../../assets/images/works/dg_.jpg',
       showFullText: false,
       truncatedText: '',

@@ -9,9 +9,11 @@
     margin: 0 auto 3.5rem auto;
   }
   img._logo_mobile {
+    object-fit: contain;
     width: 10rem;
   }
   div._container_logo_desktop {
+    object-fit: contain;
     display: none;
   }
   section._header_footer {
@@ -86,7 +88,6 @@
     border-radius: 50px;
     display: inherit;
     align-items: center;
-    z-index: 1;
     border: none;
     cursor: pointer;
     color: $first_color;

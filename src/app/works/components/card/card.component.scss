@@ -32,7 +32,8 @@
     color: $second_color;
   }
   h1._title {
-    font-size: 1.2rem;
+    white-space: nowrap;
+    font-size: 1rem;
     font-weight: 300;
     color: $accent_color;
     margin-block-start: 0em;

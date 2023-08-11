@@ -145,6 +145,7 @@
     margin: 0 auto 0 auto;
   }
   img._logo_desktop {
+    object-fit: contain;
     width: 10rem;
   }
   section._container_contact {

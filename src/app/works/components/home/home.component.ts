@@ -48,7 +48,7 @@ export class HomeComponent implements OnInit {
   }
 
   mixArrayContent() {
-    this.concepts.sort(()=> Math.random() - 0.5);
+    this.concepts.sort(()=> Math.random() - 1.5);
   }
 
   getStyles() {

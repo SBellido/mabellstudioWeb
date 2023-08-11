@@ -16,7 +16,7 @@ export class MarketingComponent implements OnInit {
     {
       id: 1,
       tittle: 'estrategias digitales',
-      text: ['Publicidad atractiva y en línea.', 'Creatividad, innovación y análisis.','Presencia de marca, capta de clientes.','Uso inteligente de Redes Sociales.'],
+      text: ['Publicidad atractiva y en línea.', 'Creatividad, innovación y análisis.','Presencia de marca, capta clientes.','Uso inteligente de Redes Sociales.'],
       image: '../../../../assets/images/estrategias_.jpg',
       showFullText: false,
       truncatedText: '',
